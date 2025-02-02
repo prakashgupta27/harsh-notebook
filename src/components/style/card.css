@@ -11,6 +11,13 @@
     background: linear-gradient(to bottom, black, rgb(66, 64, 64));
     padding: 20px;
   }
+
+  .cardgrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
   
   .laptopicon {
     height: 40px;
@@ -53,5 +60,17 @@
     .date {
       font-size: 0.9rem;
     }
+    @media (max-width: 768px) {
+  .card-grid {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Smaller cards for mobile */
+  }
+}
+
+@media (max-width: 480px) {
+  .card-grid {
+    grid-template-columns: 1fr; /* Stack cards on top of each other on very small screens */
+  }
+}
+
   }
   
