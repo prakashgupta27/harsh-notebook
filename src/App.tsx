@@ -1,7 +1,6 @@
-import React, { useState } from 'react';
 import './App.css';
 import Header from './components/Header'
-import Welcome from './components/Welcome';
+import Welcome from './pages/welcome/Welcome';
 import Card from './components/card'
 
 
@@ -12,7 +11,6 @@ function App() {
         <Header />
       </div>
       <Welcome/>
-      <Card/>
     </>
   );
 }

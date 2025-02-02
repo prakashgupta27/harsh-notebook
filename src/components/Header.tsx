@@ -1,4 +1,3 @@
-import React from 'react'
 import logo from '/cdnlogo.com_(1).svg'; 
 import SettingsIcon from '@mui/icons-material/Settings';
 import Stack from '@mui/material/Stack';
